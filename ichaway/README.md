@@ -1,8 +1,8 @@
-# FLSHE folder README
+# Ichaway folder README
 
 ## Summary
 
-This folder is to help researchers/land managers process data using the gopher frog RIBBIT model at Fall Line Sandhills East. 
+This folder is to help researchers/land managers process data using the gopher frog RIBBIT model at Ichaway. 
 
 ## Files/folders
 
