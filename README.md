@@ -7,8 +7,7 @@ This project uses the [repeat interval-based bioacoustic identification tool (RI
 ## Instalation and setup 
 
 1. If you have not already, install [Python](https://www.python.org/downloads/) and [Jupyter](https://jupyter.org/install). 
-1. Install [OpenSoundscape](http://opensoundscape.org/en/latest/). 
-1. Setup a Python environment for the model in Terminal/Commandline: 
+1. Install OpenSoundscape using [their instructions](http://opensoundscape.org/en/latest/). Or, if you have Terminal/Commandline and Anaconda already, use: 
 
 ```
 # Create a Python environment for opensoundscape: 
@@ -47,13 +46,5 @@ python -m jupyter kernelspec remove myenv
 - The `FLSHE` folder contains all information needed to run the model for data from Fall Line Sandhills East and sample data to test running the model. 
 - Note for other users: both of the above folders may be easily adapted to alternative datasets by organizing audio files to match the format given within each of those folders. 
 - The `ribbit_functions` folder contains python functions that are used to run the model and organize data. They should not need to be edited for everyday use of the model. 
-- The `gopher_call_examples` folder contains audio file examples of gopher frogs. 
 
 
-## Current issues
-
-* Some of the file names in the verified Ichaway data have different values for the "minutes" than the actual audio files. This means when merging the verified data with the RIBBIT scores, we either (A) lose some data or we (B) assume the minutes indicator is unimportant. Currently we are using option (A), as it is more reliable, but we do lose some of our data. 
-
-
-  
-  
